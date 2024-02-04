@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.emmanuel.androidgamedev"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.emmanuel.androidgamedev"
@@ -23,7 +23,10 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+
         }
+
+        
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
